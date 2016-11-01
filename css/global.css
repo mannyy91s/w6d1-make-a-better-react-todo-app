@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.inputDiv {
+  background: #393E41;
+  padding: 10px;
+}
+
+.inputDiv button {
+  float: right;
+}
+
+.inputDiv h1 {
+  color: white;
+}
+
+#inputResults {
+  color: white;
+  margin-left: -15px;
+}
+
+#inputResults .note {
+  background: #1985A1;
+  font-size: 40px;
+  margin-top: 2px;
+}
