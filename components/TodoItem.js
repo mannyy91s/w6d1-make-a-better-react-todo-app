@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 
 const TodoItem = (props) => (
-        <div className="row">
-        <div className="note col-sm-12 animated flipInX">
-            {props.data}
-        </div>
-    </div>
+            <li className="list-group-item list-group-item-success animated flipInX" onClick={props.markDone}>
+                <input type="checkbox" checked={props.data.done}/>
+                <span style={{textDecoration:props.data.done?'line-through':''}}>{props.data.text}</span>
+            </li>
 )
 
 export default TodoItem
