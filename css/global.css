@@ -7,7 +7,7 @@ img {
 }
 
 .inputDiv {
-  background: #393E41;
+  background: #712357;
   padding: 10px;
 }
 
@@ -19,13 +19,6 @@ img {
   color: white;
 }
 
-#inputResults {
-  color: white;
-  margin-left: -15px;
-}
-
-#inputResults .note {
-  background: #1985A1;
-  font-size: 40px;
-  margin-top: 2px;
+.list-container {
+  background-color: RGB(66, 165, 248);
 }

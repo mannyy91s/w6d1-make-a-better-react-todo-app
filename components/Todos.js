@@ -73,7 +73,13 @@ class Todos extends Component {
                                 </button>
                             </span>
                         </div>
-                        <ul className="list-group">{TodoItems}</ul>
+                        </div>
+                    </div>
+                    <div className="container list-container">
+                        <div className="row">
+                            <div className="col-sm-12">
+                            <ul className="list-group">{TodoItems}</ul>
+                            </div>
                         </div>
                     </div>
                    </div>
